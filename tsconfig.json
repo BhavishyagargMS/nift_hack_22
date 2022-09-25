@@ -8,5 +8,7 @@
     "skipLibCheck": true
   },
   "include":["./scripts","./tests","./typechain"],
-  "files":["./harhdat.config.ts"]
+  "files":["./hardhat.config.ts"],
+  "resolveJsonModule": true,
+  "esModuleInterop": true
 }
